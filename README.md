@@ -1,4 +1,4 @@
-<p align="center"><a href="https://paystack.com/"><img src="./pix/banner.png?raw=true" alt="Payment Forms for Paystack"></a></p>
+<p align="center"><a href="https://paystack.com/docs/libraries-and-plugins/plugins#others"><img src="./pix/banner.png?raw=true" alt="Paystack Add-On For Moodle"></a></p>
 
 
 # Paystack Enrolment Plugin
@@ -34,7 +34,7 @@ Here you can browse the source, look at open issues and keep track of developmen
 
 ## License ##
 
-2019 Paystack
+2021 Paystack
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software

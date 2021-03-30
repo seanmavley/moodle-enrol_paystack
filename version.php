@@ -18,14 +18,14 @@
  * Plugin version and other meta-data are defined here.
  *
  * @package     enrol_paystack
- * @copyright   2019 Paystack
+ * @copyright   2019-2021 Paystack
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'enrol_paystack';
-$plugin->release = '1.4.1';
+$plugin->release = '2.0.0';
 $plugin->version = 2021011421;
 $plugin->requires = 2018120300;
 $plugin->maturity = MATURITY_STABLE;

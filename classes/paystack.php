@@ -14,7 +14,7 @@
  * Paystack API Class
  *
  * @package    enrol_paystack
- * @copyright  2019 Paystack
+ * @copyright  2021 Paystack
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -37,7 +37,7 @@ class paystack
     }
 
     /**
-     * Verify Payment Transaction
+     * Initialize Payment Transaction
      *
      * @param string $reference
      * @param array $data
@@ -132,9 +132,15 @@ class paystack
         //send reference to logger along with plugin name and public key
         $url = "https://plugin-tracker.paystackintegrations.com/log/charge_success";
 
+        // $params = [
+        //     'public_key' => $this->public_key,
+        //     'plugin_name'  => $this->plugin_name,
+        //     'transaction_reference' => $reference,
+        // ];
+
         $params = [
             'public_key' => $this->public_key,
-            'plugin_name'  => $this->plugin_name,
+            'plugin_name'  => 'moodle-enrol',
             'transaction_reference' => $reference,
         ];
 
