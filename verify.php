@@ -38,7 +38,7 @@ require_login();
 
 // Paystack does not like when we return error messages here,
 // the custom handler just logs exceptions and stops.
-set_exception_handler('enrol_paystack_charge_exception_handler');
+// set_exception_handler('enrol_paystack_charge_exception_handler');
 
 // Make sure we are enabled in the first place.
 if (!enrol_is_enabled('paystack')) {
